@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Coding Challenge LifeCycle</string>
+    <string name="choose_order">CHOOSE ORDER</string>
+    <string name="cheese">Cheese</string>
+    <string name="egg">Egg</string>
+    <string name="milk">Milk</string>
+    <string name="salt">Salt</string>
+    <string name="noodles">Noodles</string>
+    <string name="sugar">Sugar</string>
+    <string name="bread">Bread</string>
+    <string name="corn">Corn</string>
+    <string name="chicken">Chicken</string>
+    <string name="juice">Juice</string>
+    <string name="clear_order">Clear Order</string>
+    <string name="order_1">ORDER 1</string>
+    <string name="order_2">ORDER 2</string>
+    <string name="order_3">ORDER 3</string>
+    <string name="order_4">ORDER 4</string>
+    <string name="order_5">ORDER 5</string>
+    <string name="order_6">ORDER 6</string>
+    <string name="order_7">ORDER 7</string>
+    <string name="order_8">ORDER 8</string>
+    <string name="order_9">ORDER 9</string>
+    <string name="order_10">ORDER 10</string>
+    <string name="search_store">search</string>
+</resources>

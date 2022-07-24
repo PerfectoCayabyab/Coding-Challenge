@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="6"
+    android:layout_column="2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_1"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_2"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_3"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_4"
+        android:layout_row="1"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_4"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_5"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_5"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_6"
+        android:layout_row="2"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_6"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_7"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_7"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_8"
+        android:layout_row="3"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_8"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_9"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_9"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_10"
+        android:layout_row="4"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:text="@string/order_10"
+        android:textColor="#FF0000"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_order"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:onClick="choose_order"
+        android:text="@string/choose_order"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_row="5"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:layout_margin="5sp"
+        android:onClick="clearOrder"
+        android:text="@string/clear_order"
+        android:textSize="10dp" />
+
+</GridLayout>
